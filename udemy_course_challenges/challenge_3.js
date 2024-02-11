@@ -16,9 +16,10 @@ Your tasks:
 
 TEST DATA: Dolphins scored 96, 108, and 89. Koalas scored 88, 91, and 110. */
 
-// Using last pair of test data
-const scoreDolphins = 89;
-const scoreKoalas = 110;
+// Using pair of test data
+const scoreDolphins = (96 + 108 + 89) / 3;
+const scoreKoalas = (88 + 91 + 110) / 3;
+
 if (scoreDolphins > scoreKoalas) {
     console.log("Dolphins win the trophy");
 } else if (scoreKoalas > scoreDolphins) {
